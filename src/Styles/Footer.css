@@ -35,11 +35,12 @@
 
 .Redes {
     display: flex;
-    background-color: grey;
 
 }
 
 .Redes img{
+    background-color: grey;
+    border-radius: 5px;
     width: 15px;
     height: 15px;
     padding: 5px;

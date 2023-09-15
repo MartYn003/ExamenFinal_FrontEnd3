@@ -10,9 +10,11 @@ const Form = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
+        const emailValidation = /^[a-zA-Z0-9]{3,}@[a-zA-Z]{3,}\.[a-zA-Z]{2,}$/;
+
         if(user.length < 5){
             setMensaje("Por favor verifique su información nuevamente")
-        }else if(!email.includes("@") || !email.endsWith('.com') || email.startsWith("@")){
+        }else if(!emailValidation.test(email)){
             setMensaje("Por favor verifique su información nuevamente")
         }else{
             console.log("user: " + user + " " + "email: " + email )
@@ -22,7 +24,7 @@ const Form = () => {
 
             setTimeout(() => {
                 setMensaje('')
-            }, 3000);
+            }, 5000);
         }
         
     }
