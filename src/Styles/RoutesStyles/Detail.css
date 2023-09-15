@@ -1,0 +1,28 @@
+.detail-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -8px;
+}
+
+.detail-m{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 30px;
+}
+.detail-main h4{
+    margin: 10px;
+}
+img{
+    width: 200px;
+    margin: 30px;
+}
+
+.theme-dark .detail-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(147, 147, 147);
+}

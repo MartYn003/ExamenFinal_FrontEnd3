@@ -1,0 +1,60 @@
+.Navbar-back{
+    margin: -8px;
+    background-color: rgb(226, 226, 226);
+}
+
+.theme-dark .Navbar-back{
+    margin: -8px;
+    background-color: rgb(80, 80, 80);
+}
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10%;
+}
+
+span{
+    color: rgb(139, 39, 60);;
+}
+
+.Navbar-btn {
+    display: inline-flex;
+    align-items: center;
+}
+
+.link{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.link:hover{
+    color: rgb(139, 39, 60);
+}
+
+.Navbar-btn button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    margin-left: 10px;
+    
+}
+.theme-dark .Navbar-btn button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(126, 126, 126);
+    margin-left: 10px;
+    
+}
+
+
+.Navbar-btn button:hover{
+    border-radius: 30%;
+}

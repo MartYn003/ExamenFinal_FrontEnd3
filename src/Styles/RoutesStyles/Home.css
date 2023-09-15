@@ -1,0 +1,39 @@
+.theme-light .MainHome{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin: -8px;
+}
+
+.MainHome h1{
+    align-self: center;
+}
+
+.theme-light .card-grid {
+    display: grid;
+    align-self: center;
+    width: 70%;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: auto;
+}
+
+.theme-dark .MainHome{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(147, 147, 147);
+    margin: -8px;
+}
+
+.card-grid {
+    display: grid;
+    align-self: center;
+    width: 70%;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: auto;
+    margin-bottom: 30px;
+}
+

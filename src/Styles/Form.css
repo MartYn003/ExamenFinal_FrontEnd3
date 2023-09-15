@@ -1,0 +1,30 @@
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+form input{
+    margin: 5px;
+}
+
+form input Submit{
+    background-color: rgb(14, 136, 243);
+}
+
+form button{
+    width: 60px;
+    height: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.mensaje{
+    display: flex;
+    justify-content: center;
+    margin: -25px 0px 25px 0px;
+}
